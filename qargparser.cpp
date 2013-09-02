@@ -1,3 +1,5 @@
+#include <QApplication>
+#include <QStringList>
 #include "qargparser.h"
  
 QString QArgByKey(QString key, QChar sep)
