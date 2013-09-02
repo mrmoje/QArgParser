@@ -1,6 +1,4 @@
-QArgParser
-===========
-The Tinyest argument parser lib for QT..(should be a gist)
+QArgParser <- The Tinyest argument parser lib for QT..(should be a gist)
 
 
 ### USAGE EXAMPLE
