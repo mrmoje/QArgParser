@@ -1,10 +1,10 @@
-QArgParser <- The Tinyest argument parser lib for QT..(should be a gist)
+__QArgParser__ <- The Tinyest argument parser lib for QT..(should be a gist)
 
 
-### USAGE EXAMPLE
+__USAGE EXAMPLE__<br>
 command line args:-
 ```bash
-user@box:~$ ./myApp  firstKey=Value1 --secondKey Value2 thirdKey=val3.1,val3.2,val3.3 --enable-foo
+you@yourbox:~$ ./myApp  firstKey=Value1 --secondKey Value2 thirdKey=val3.1,val3.2,val3.3 --enable-foo
 ```
 
 Code:-
