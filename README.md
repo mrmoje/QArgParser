@@ -1,4 +1,18 @@
-qtArgParser
+QArgParser
 ===========
+The Tinyest argument parser lib for QT..(should be a gist)
 
-A Tiny argument parser lib for QT
+
+### USAGE EXAMPLE
+command line args:-
+```bash
+user@box:~$ ./myApp  firstKey=Value1 --secondKey Value2 thirdKey=val3.1,val3.2,val3.3 --enable-foo
+```
+
+Code:-
+```cpp
+QString param1   = QArgByKey("firstkey",'='); // Returns `Value1` from first pair
+QString param2   = QArgByKey("--secondkey"); // Returns `Value2` from second pair
+QString param3-1 = QArgByKey("--thirdkey",'=').split(',').at(0); // Returns `val3.1`
+bool fooEnabled  = qApp->arguments().contains("--enable-foo"); //To check for `--enable-foo`
+```
