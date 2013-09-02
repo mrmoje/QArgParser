@@ -1,4 +1,4 @@
-__QArgParser__ <- The Tinyest argument parser lib for QT..(should be a gist)
+__QArgParser__ <- The most pint-sized argument parser lib for QT..(should be a gist)
 
 
 __USAGE EXAMPLE__<br>
