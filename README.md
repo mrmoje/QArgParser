@@ -11,6 +11,6 @@ Code:-
 ```cpp
 QString param1   = QArgByKey("firstkey",'='); // Returns `Value1` from first pair
 QString param2   = QArgByKey("--secondkey"); // Returns `Value2` from second pair
-QString param3-1 = QArgByKey("--thirdkey",'=').split(',').at(0); // Returns `val3.1`
+QString param3-1 = QArgByKey("thirdkey",'=').split(',').at(0); // Returns `val3.1`
 bool fooEnabled  = qApp->arguments().contains("--enable-foo"); //To check for `--enable-foo`
 ```
